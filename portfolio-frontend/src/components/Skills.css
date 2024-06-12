@@ -1,0 +1,38 @@
+/* src/components/Skills.css */
+.skills-container {
+    padding: 20px;
+    font-family: 'Cambria', sans-serif;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.skills-container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-item {
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill-item p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
